@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(to right, red ,blue);
+}
+.divPrincipal{
+    background-color: rgba(0, 0, 0, 0.411);
+    margin:2px 400px;
+    padding: 40px;
+    border-radius: 40px;
+
+}
+.frm-freme{
+ margin: 20px;
+ display: flex;
+ flex-direction: column;
+
+}
+.frm-freme-CEP{
+ margin: 20px;
+ display: flex;
+ flex-direction: column;
+
+}
+.titulo{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+.titulo2{
+    font-family: monospace;
+    color: white;
+}
+input{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 3px;
+    padding-left: 6px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    color: white;
+
+}
+.frm-freme-CEP input{
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 3px;
+    padding-left: 6px;
+    border:none;
+    background-color: transparent;
+    color: white;
+
+}
+label{
+    font-family: monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 9px;
+    
+}
+input:hover{
+    border: none;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 6px black;
+    text-shadow: 1px 1px 6px black;
+}
+button:hover{
+    background-color: rgb(138, 138, 255);
+    
+}
