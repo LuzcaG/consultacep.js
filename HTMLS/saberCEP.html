@@ -1,30 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/consultaCEP.css">
-    <title>Consulta - CEP</title>
+    <link rel="stylesheet" href="../CSS/saberCEP.css">
+    <title>busca por CEP</title>
 </head>
 <body>
     <div class="divPrincipal">
             
             <form action="">
-                <h1 class="titulo">Consulta de CEP</h1>
-            
-                <div class="frm-freme">
-                    <label for="cep">CEP:</label>
-                    <input type="text" class="inCep" id="cep" name="cep">
-                </div>                
+                <h1 class="titulo">Buscar por CEP</h1>
+                <button id="cepEX">adicionar cep de exemplo</button>
                 <div class="frm-freme-CEP">
                     <label for="rua">Rua:</label>
                     <input type="text" class="inRua" id="rua" n0ame="rua">
                 </div>
-                <div class="frm-freme-CEP">
+                <!--<div class="frm-freme-CEP">
                     <label for="bairro">Bairro:</label>
                     <input type="text" class="inBairro" id="bairro" name="bairro">
-                </div>
+                </div>  -->
                 <div class="frm-freme-CEP">
                     <label for="cidade">Cidade:</label>
                     <input type="text" class="inCidade" id="cidade" name="cidade">
@@ -33,10 +29,16 @@
                     <label for="estado">Estado:</label>
                     <input type="text" class="inEstado" id="estado" name="estado">
                 </div>
-                <h1 class="titulo2">Não sabe o seu CEP?</h1>
-                <a href="/HTMLS/saberCEP.html"><button type="button">SABER AGORA</button></a>
+                <button id="buscarCEP" class="btn">BUSCAR</button></a>
+                <div id="buscarNovoCEP">
+                    <button>buscar novo cep</button>
+                </div>
+                
+                <ul  id="listaCEP">
+                    
+                </ul>
             </form>
     </div>
-    <script src="../JAVA_SCRIPT/consultaCEP.js"></script>
+    <script src="../JAVA_SCRIPT/saberCEP.js"></script>
 </body>
 </html>
